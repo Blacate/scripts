@@ -18,7 +18,7 @@ fi
 IP=""
 RETRY="0"
 while [ $RETRY -lt 5 ]; do
-    IP=$(curl -s ip.xdty.org)
+    IP=$(LC_ALL=C ifconfig -a $INTERFACE | grep 'inet addr:'|cut -d: -f2|awk '{print $1}')
     RETRY=$((RETRY+1))
     if [ -z "$IP" ];then
         sleep 3

@@ -9,8 +9,8 @@
 cloudxns:
 
 ```
-wget https://raw.githubusercontent.com/xdtianyu/scripts/master/ddns/cloudxns.sh
-wget https://raw.githubusercontent.com/xdtianyu/scripts/master/ddns/cloudxns.conf
+wget https://raw.githubusercontent.com/Blacate/scripts/master/ddns/cloudxns.sh
+wget https://raw.githubusercontent.com/Blacate/scripts/master/ddns/cloudxns.conf
 chmod +x cloudxns.sh
 ```
 
@@ -32,6 +32,7 @@ SECRET_KEY="YOUR_SECRET_KEY"
 DOMAIN="example.com"
 HOST="ddns"
 LAST_IP_FILE="/tmp/.LAST_IP"
+INTERFACE="wlp7s0"
 ```
 
 dnspod:
@@ -87,8 +88,8 @@ chmod +x dnspod.sh
 cloudxns:
 
 ```
-wget https://raw.githubusercontent.com/xdtianyu/scripts/master/ddns/cloudxns.sh
-wget https://raw.githubusercontent.com/xdtianyu/scripts/master/ddns/cloudxns.conf
+wget https://raw.githubusercontent.com/Blacate/scripts/master/ddns/cloudxns.sh
+wget https://raw.githubusercontent.com/Blacate/scripts/master/ddns/cloudxns.conf
 chmod +x cloudxns.sh
 ```
 
@@ -112,6 +113,7 @@ SECRET_KEY="YOUR_SECRET_KEY"
 DOMAIN="example.com"
 HOST="ddns"
 LAST_IP_FILE="/tmp/.LAST_IP"
+INTERFACE="wlp7s0"
 ```
 
 **3\. 运行测试**
